@@ -1,0 +1,82 @@
+{
+  "AkhonaMessengerApp": {
+    "classes": {
+      "User ": {
+        "attributes": {
+          "username": "String",
+          "password": "String"
+        },
+        "example": {
+          "username": "admin",
+          "password": "playyboy929"
+        }
+      },
+      "Message": {
+        "attributes": {
+          "sender": "String",
+          "recipient": "String",
+          "content": "String",
+          "messageHash": "String",
+          "messageID": "String"
+        },
+        "example": {
+          "sender": "Alizwa",
+          "recipient": "+27816057816",
+          "content": "Don't forget to bring me something nice",
+          "messageHash": "hash001",
+          "messageID": "msg001"
+        }
+      }
+    },
+    "lists": {
+      "sentMessages": [
+        {
+          "sender": "Mother",
+          "recipient": "+27783782863",
+          "content": "it is time for dinner",
+          "messageHash": "hash001",
+          "messageID": "msg001"
+        },
+        {
+          "sender": "Father",
+          "recipient": "+27871077494",
+          "content": "Where are you?  it is late.",
+          "messageHash": "hash003",
+          "messageID": "msg003"
+        }
+      ],
+      "disregardedMessages": [
+        {
+          "sender": "Fanele",
+          "recipient": "+27834484567",
+          "content": "I'm at room404",
+          "messageHash": "hash004",
+          "messageID": "msg004"
+        },
+        {
+          "sender": "Lunathi",
+          "recipient": "+27678411076",
+          "content": "Did you study?",
+          "messageHash": "hash005",
+          "messageID": "msg005"
+        }
+      ],
+      "storedMessages": [
+        {
+          "sender": "sinazo",
+          "recipient": "+27681045980",
+          "content": "OK, I miss you too",
+          "messageHash": "hash006",
+          "messageID": "msg006"
+        },
+        {
+          "sender": "Aunty",
+          "recipient": "+27683757658",
+          "content": "OK, I am leaving without you.",
+          "messageHash": "hash007",
+          "messageID": "msg007"
+        }
+      ]
+    }
+  }
+}
